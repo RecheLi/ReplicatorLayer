@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ReplicatorView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [ReplicatorView showReplicatorLoadingInView:self.view];
+}
+
+- (IBAction)show:(UIButton *)sender {
+    [ReplicatorView showReplicatorLoadingInView:self.view];
+}
+
+- (IBAction)hide:(UIButton *)sender {
+    [ReplicatorView disMissReplicatorLoadingInView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

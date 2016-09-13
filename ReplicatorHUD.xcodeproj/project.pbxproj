@@ -15,6 +15,7 @@
 		1812630E1D87E9C000100BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812630C1D87E9C000100BAE /* LaunchScreen.storyboard */; };
 		181263191D87E9C100100BAE /* ReplicatorHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263181D87E9C100100BAE /* ReplicatorHUDTests.m */; };
 		181263241D87E9C100100BAE /* ReplicatorHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263231D87E9C100100BAE /* ReplicatorHUDUITests.m */; };
+		181263341D87EA0200100BAE /* ReplicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263331D87EA0200100BAE /* ReplicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1812631F1D87E9C100100BAE /* ReplicatorHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181263231D87E9C100100BAE /* ReplicatorHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorHUDUITests.m; sourceTree = "<group>"; };
 		181263251D87E9C100100BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181263321D87EA0200100BAE /* ReplicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorView.h; sourceTree = "<group>"; };
+		181263331D87EA0200100BAE /* ReplicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		181262FD1D87E9C000100BAE /* ReplicatorHUD */ = {
 			isa = PBXGroup;
 			children = (
+				181263311D87EA0200100BAE /* ReplicatorHUD */,
 				181263011D87E9C000100BAE /* AppDelegate.h */,
 				181263021D87E9C000100BAE /* AppDelegate.m */,
 				181263041D87E9C000100BAE /* ViewController.h */,
@@ -138,6 +142,15 @@
 				181263251D87E9C100100BAE /* Info.plist */,
 			);
 			path = ReplicatorHUDUITests;
+			sourceTree = "<group>";
+		};
+		181263311D87EA0200100BAE /* ReplicatorHUD */ = {
+			isa = PBXGroup;
+			children = (
+				181263321D87EA0200100BAE /* ReplicatorView.h */,
+				181263331D87EA0200100BAE /* ReplicatorView.m */,
+			);
+			path = ReplicatorHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				181263061D87E9C000100BAE /* ViewController.m in Sources */,
 				181263031D87E9C000100BAE /* AppDelegate.m in Sources */,
 				181263001D87E9C000100BAE /* main.m in Sources */,
+				181263341D87EA0200100BAE /* ReplicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReplicatorHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReplicatorHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
