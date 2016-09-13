@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181263001D87E9C000100BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181262FF1D87E9C000100BAE /* main.m */; };
+		181263031D87E9C000100BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263021D87E9C000100BAE /* AppDelegate.m */; };
+		181263061D87E9C000100BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263051D87E9C000100BAE /* ViewController.m */; };
+		181263091D87E9C000100BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181263071D87E9C000100BAE /* Main.storyboard */; };
+		1812630B1D87E9C000100BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812630A1D87E9C000100BAE /* Assets.xcassets */; };
+		1812630E1D87E9C000100BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812630C1D87E9C000100BAE /* LaunchScreen.storyboard */; };
+		181263191D87E9C100100BAE /* ReplicatorHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263181D87E9C100100BAE /* ReplicatorHUDTests.m */; };
+		181263241D87E9C100100BAE /* ReplicatorHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181263231D87E9C100100BAE /* ReplicatorHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181263151D87E9C100100BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181262F31D87E9C000100BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181262FA1D87E9C000100BAE;
+			remoteInfo = ReplicatorHUD;
+		};
+		181263201D87E9C100100BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181262F31D87E9C000100BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181262FA1D87E9C000100BAE;
+			remoteInfo = ReplicatorHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181262FB1D87E9C000100BAE /* ReplicatorHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplicatorHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181262FF1D87E9C000100BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181263011D87E9C000100BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181263021D87E9C000100BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181263041D87E9C000100BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181263051D87E9C000100BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181263081D87E9C000100BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1812630A1D87E9C000100BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1812630D1D87E9C000100BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1812630F1D87E9C000100BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181263141D87E9C100100BAE /* ReplicatorHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181263181D87E9C100100BAE /* ReplicatorHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorHUDTests.m; sourceTree = "<group>"; };
+		1812631A1D87E9C100100BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1812631F1D87E9C100100BAE /* ReplicatorHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181263231D87E9C100100BAE /* ReplicatorHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorHUDUITests.m; sourceTree = "<group>"; };
+		181263251D87E9C100100BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181262F81D87E9C000100BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181263111D87E9C100100BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812631C1D87E9C100100BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181262F21D87E9C000100BAE = {
+			isa = PBXGroup;
+			children = (
+				181262FD1D87E9C000100BAE /* ReplicatorHUD */,
+				181263171D87E9C100100BAE /* ReplicatorHUDTests */,
+				181263221D87E9C100100BAE /* ReplicatorHUDUITests */,
+				181262FC1D87E9C000100BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181262FC1D87E9C000100BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181262FB1D87E9C000100BAE /* ReplicatorHUD.app */,
+				181263141D87E9C100100BAE /* ReplicatorHUDTests.xctest */,
+				1812631F1D87E9C100100BAE /* ReplicatorHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181262FD1D87E9C000100BAE /* ReplicatorHUD */ = {
+			isa = PBXGroup;
+			children = (
+				181263011D87E9C000100BAE /* AppDelegate.h */,
+				181263021D87E9C000100BAE /* AppDelegate.m */,
+				181263041D87E9C000100BAE /* ViewController.h */,
+				181263051D87E9C000100BAE /* ViewController.m */,
+				181263071D87E9C000100BAE /* Main.storyboard */,
+				1812630A1D87E9C000100BAE /* Assets.xcassets */,
+				1812630C1D87E9C000100BAE /* LaunchScreen.storyboard */,
+				1812630F1D87E9C000100BAE /* Info.plist */,
+				181262FE1D87E9C000100BAE /* Supporting Files */,
+			);
+			path = ReplicatorHUD;
+			sourceTree = "<group>";
+		};
+		181262FE1D87E9C000100BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181262FF1D87E9C000100BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181263171D87E9C100100BAE /* ReplicatorHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				181263181D87E9C100100BAE /* ReplicatorHUDTests.m */,
+				1812631A1D87E9C100100BAE /* Info.plist */,
+			);
+			path = ReplicatorHUDTests;
+			sourceTree = "<group>";
+		};
+		181263221D87E9C100100BAE /* ReplicatorHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181263231D87E9C100100BAE /* ReplicatorHUDUITests.m */,
+				181263251D87E9C100100BAE /* Info.plist */,
+			);
+			path = ReplicatorHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181262FA1D87E9C000100BAE /* ReplicatorHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181263281D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUD" */;
+			buildPhases = (
+				181262F71D87E9C000100BAE /* Sources */,
+				181262F81D87E9C000100BAE /* Frameworks */,
+				181262F91D87E9C000100BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplicatorHUD;
+			productName = ReplicatorHUD;
+			productReference = 181262FB1D87E9C000100BAE /* ReplicatorHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181263131D87E9C100100BAE /* ReplicatorHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1812632B1D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUDTests" */;
+			buildPhases = (
+				181263101D87E9C100100BAE /* Sources */,
+				181263111D87E9C100100BAE /* Frameworks */,
+				181263121D87E9C100100BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181263161D87E9C100100BAE /* PBXTargetDependency */,
+			);
+			name = ReplicatorHUDTests;
+			productName = ReplicatorHUDTests;
+			productReference = 181263141D87E9C100100BAE /* ReplicatorHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1812631E1D87E9C100100BAE /* ReplicatorHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1812632E1D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUDUITests" */;
+			buildPhases = (
+				1812631B1D87E9C100100BAE /* Sources */,
+				1812631C1D87E9C100100BAE /* Frameworks */,
+				1812631D1D87E9C100100BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181263211D87E9C100100BAE /* PBXTargetDependency */,
+			);
+			name = ReplicatorHUDUITests;
+			productName = ReplicatorHUDUITests;
+			productReference = 1812631F1D87E9C100100BAE /* ReplicatorHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181262F31D87E9C000100BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Linitial;
+				TargetAttributes = {
+					181262FA1D87E9C000100BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					181263131D87E9C100100BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 181262FA1D87E9C000100BAE;
+					};
+					1812631E1D87E9C100100BAE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 181262FA1D87E9C000100BAE;
+					};
+				};
+			};
+			buildConfigurationList = 181262F61D87E9C000100BAE /* Build configuration list for PBXProject "ReplicatorHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181262F21D87E9C000100BAE;
+			productRefGroup = 181262FC1D87E9C000100BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181262FA1D87E9C000100BAE /* ReplicatorHUD */,
+				181263131D87E9C100100BAE /* ReplicatorHUDTests */,
+				1812631E1D87E9C100100BAE /* ReplicatorHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181262F91D87E9C000100BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812630E1D87E9C000100BAE /* LaunchScreen.storyboard in Resources */,
+				1812630B1D87E9C000100BAE /* Assets.xcassets in Resources */,
+				181263091D87E9C000100BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181263121D87E9C100100BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812631D1D87E9C100100BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181262F71D87E9C000100BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181263061D87E9C000100BAE /* ViewController.m in Sources */,
+				181263031D87E9C000100BAE /* AppDelegate.m in Sources */,
+				181263001D87E9C000100BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181263101D87E9C100100BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181263191D87E9C100100BAE /* ReplicatorHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812631B1D87E9C100100BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181263241D87E9C100100BAE /* ReplicatorHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181263161D87E9C100100BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181262FA1D87E9C000100BAE /* ReplicatorHUD */;
+			targetProxy = 181263151D87E9C100100BAE /* PBXContainerItemProxy */;
+		};
+		181263211D87E9C100100BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181262FA1D87E9C000100BAE /* ReplicatorHUD */;
+			targetProxy = 181263201D87E9C100100BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181263071D87E9C000100BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181263081D87E9C000100BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1812630C1D87E9C000100BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1812630D1D87E9C000100BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181263261D87E9C100100BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181263271D87E9C100100BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181263291D87E9C100100BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReplicatorHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1812632A1D87E9C100100BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReplicatorHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1812632C1D87E9C100100BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReplicatorHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicatorHUD.app/ReplicatorHUD";
+			};
+			name = Debug;
+		};
+		1812632D1D87E9C100100BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReplicatorHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicatorHUD.app/ReplicatorHUD";
+			};
+			name = Release;
+		};
+		1812632F1D87E9C100100BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReplicatorHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReplicatorHUD;
+			};
+			name = Debug;
+		};
+		181263301D87E9C100100BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReplicatorHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Linitial.ReplicatorHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReplicatorHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181262F61D87E9C000100BAE /* Build configuration list for PBXProject "ReplicatorHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181263261D87E9C100100BAE /* Debug */,
+				181263271D87E9C100100BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181263281D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181263291D87E9C100100BAE /* Debug */,
+				1812632A1D87E9C100100BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1812632B1D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812632C1D87E9C100100BAE /* Debug */,
+				1812632D1D87E9C100100BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1812632E1D87E9C100100BAE /* Build configuration list for PBXNativeTarget "ReplicatorHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812632F1D87E9C100100BAE /* Debug */,
+				181263301D87E9C100100BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181262F31D87E9C000100BAE /* Project object */;
+}
