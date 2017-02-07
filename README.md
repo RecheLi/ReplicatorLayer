@@ -1,5 +1,5 @@
 # ReplicatorLayer
-一款实用Replicator写的简易loading框。
+学习CAReplicatorLayer，写的简易loading框。
 #用法
 
 显示
