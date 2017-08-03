@@ -10,5 +10,5 @@
 ```
 [ReplicatorView disMissReplicatorLoadingInView:self.view];
 ```
-#示例图
+# 示例图
 ![image](https://github.com/Cherishforever/ReplicatorLayer/raw/master/ReplicatorHUD.gif)
