@@ -1,6 +1,6 @@
 # ReplicatorLayer
 学习CAReplicatorLayer，写的简易loading框。
-#用法
+## 用法
 
 显示
 ```
